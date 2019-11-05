@@ -1,0 +1,84 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.cont1, .cont2{
+    display:inline-block; 
+    padding:25px;
+    margin-top:10px;
+    margin-left:10px;
+    border:1px solid teal;
+    height:150px;
+  width:500px;
+    
+  
+}
+.cheese-btn{
+    margin-top:20px;
+    width:200px;
+    border:none;
+    border-radius:20px;
+    background-color:red;
+    color:white;
+    height:30px;
+}
+.both{
+    display:flex;
+    justify-content: center;
+}
+h2{
+    display:inline-block;
+    padding-bottom:20px;
+}
+.cheese{
+    border-radius:10px;
+    display:inline-block;
+    float:right;
+}
+.peperoni{
+    border-radius:10px;
+    display:inline-block;
+    float:right;
+    }
+.basilcheese{
+    border-radius:10px;
+    display:inline-block;
+    float:right;
+}    
+.thickcrust{
+    border-radius:10px;
+    display:inline-block;
+    float:right;
+}    
+.footer{
+    padding-top:25px;
+}
+
+
+                                    
+
+
+
+
+
+                                    /* 850 and smaller*/
+@media(max-width: 1030px ){
+    .both{
+        flex-wrap: wrap;
+}
+.cont1, .cont2{
+    height:175px;
+}
+
+
+}
+
+                                   /* 400 and smaller*/
+@media(max-width: 575px){
+    .cont1, .cont2{
+        height:200px;
+    }
+        
+
+}
