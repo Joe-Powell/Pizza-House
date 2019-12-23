@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>pizza selection</title>
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
      <link rel="stylesheet" type='text/css' href="pizzaselection.css">
-     <link href='style.css' type='text/css' rel='stylesheet'>
+     
      <script src="https://kit.fontawesome.com/871b467013.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,7 +17,7 @@
         <nav class="nav">
                 <ul class='navbar'>
                     <li class='menuhover'>Menu</li>
-                    <li><a href='index.html'>Home Page</a></li>
+                   
                     <li>Delivery</li>
                     <li>Pick-up</li>
                     <h1 class='title-bignav'>Pizza House</h1>
@@ -27,8 +29,9 @@
         
         <div class='menu-drop'>
                 <ul>
-                    <li><a href='pizzaselection.html'>Pizza</a></li>
-                    <li><a href="chicken.html">Chicken</a></li>
+                    <a href="index.html"> <li>Home</li></a>
+                    <a id='a' href='pizzaselection.html'><li class='anchLi'>Pizza</li></a>
+                    <a id='a' href="chicken.html"><li class='anchLi'>Chicken</li></a> 
                     <li>Pasta</li>
                     <li>Drinks</li>
                     <li>Sides</li>
@@ -43,6 +46,7 @@
             <ul class='burger-dropdown'>
                 <li class='menudropburger'>Menu
                     <ul class='menuformenu'>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="pizzaPic.jpg">Pizza</a></li>
                         <li><a href="chicken.html">Chicken</a></li>
                         <li>Pasta</li>
@@ -57,62 +61,52 @@
                 <li>Pick-up</li>
                 
             </ul>
+        <div class="all ">
+            <div class="card" style='width:200px; height:fit-content;' >
+                <img class="card-img-top" src="./images/peperoni.jpg" alt="card example image" style='width:120px; padding:10px; border-radius:20px;' height='100px' >
+                <div class="card-body">
+                  <h5 class="card-title">Peperoni Pizza</h5>
+                  <p class="card-text">Enjoy this freshly prepared pepperoni and mozzarella cheese pizza </p>
+                  <a href="#" class="card-link">Order now</a>
+                </div>
+              </div>
+              <div class="card" style='width:200px;' >
+                <img class="card-img-top" src="./images/cheese.jpg" alt="card example image" style='width:120px; padding:10px; border-radius:20px;' height='100px' >
+                <div class="card-body">
+                  <h5 class="card-title">Cheese Pizza</h5>
+                  <p class="card-text">Enjoy this freshly prepared pepperoni and mozzarella cheese pizza </p>
+                  <a href="#" class="card-link">Order now</a>
+                </div>
+              </div>
+              <div class="card" style='width:200px;' >
+                <img class="card-img-top" src="./images/basilcheese.jpg" alt="card example image" style='width:120px; padding:10px; border-radius:20px;' height='100px' >
+                <div class="card-body">
+                  <h5 class="card-title">Basil Pizza</h5>
+                  <p class="card-text"> marinara sauce topped with Basil & mozzarella cheese. Order now! </p>
+                  <a href="#" class="card-link">Order now</a>
+                </div>
+              </div>
+              <div class="card" style='width:200px;' >
+                <img class="card-img-top" src="./images/thickcrust.jpg" alt="card example image" style='width:120px; padding:10px; border-radius:20px;' height='100px' >
+                <div class="card-body">
+                  <h5 class="card-title">Thick Crust Pizza</h5>
+                  <p class="card-text">This gourmet pizza is ideal for easy late
+                    night delivery. Order now </p>
+                  <a href="#" class="card-link">Order now</a>
+                </div>
+              </div>
+            </div> 
     
-    
-    
-    
-            <div class='both'>
-    <div class="cont1">
+      
        
-       <h2>Cheese Pizza</h2> <img class='cheese' src='cheese.jpg' height='100px'><p>Meat lover's pizza is the perfect game day pizza,
-           <br> packed with pepperoni, Italian sausage, ham, bacon, season pork and 
-           beef.</p>
-               <button class='cheese-btn'>Order Now</button>
-                        </div>
-    
-        <div class="cont2">
-                <h2>Peperoni Pizza</h2><img class='peperoni' src='peperoni.jpg' height='100px'  ><p>Enjoy this freshly prepared pizza for
-                     family dinner or<br> a group lunch, including pepperoni, seasoned 
-                     pork, beef, mushrooms, green</p>
-           <button class='cheese-btn'>Order Now</button>
-                  </div>
-                </div>
+     
 
-
-    <div class='both'>
-     <div class="cont1">
-       <h2>Basil Cheese</h2><img class='basilcheese' src='basilcheese.jpg' height='100px'  ><p>Your favorite cheese pizza made with classic
-           <br> marinara sauce topped with mozzarella cheese.<br> Order pizza online now.</p>
-               <button class='cheese-btn'>Order Now</button>
-                        </div>
-    
-        <div class="cont2">
-                <h2>Thick crust</h2><img class='thickcrust' src='thickcrust.jpg' height='100px'  ><p>This gourmet pizza is ideal for easy late night delivery,<br> complete with mozzarella cheese and pepperoni. Order pizza online now.</p>
-           <button class='cheese-btn'>Order Now</button>
-                  </div>    
-                </div>
-
-
-                <footer class='footer'>
-                    <ul>
-                        <li><strong>Menu</strong></li>
-                        <li>Pizza</li>
-                        <li>Chicken</li>
-                        <li>Desserts</li>
-                        <li>Drinks</li>
-                        
-                    </ul>
-
-
-
-                </footer>
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
-                <script src='index.js'></script>       
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src='index.js'></script>
+                       
 </body>
 </html>
