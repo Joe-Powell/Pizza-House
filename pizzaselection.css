@@ -2,83 +2,163 @@
     padding:0px;
     margin:0px;
 }
-
-.cont1, .cont2{
-    display:inline-block; 
-    padding:25px;
-    margin-top:10px;
-    margin-left:10px;
-    border:1px solid teal;
-    height:150px;
-  width:500px;
-    
-  
+body{
+    background-color:lightblue;
 }
-.cheese-btn{
-    margin-top:20px;
-    width:200px;
-    border:none;
-    border-radius:20px;
-    background-color:red;
-    color:white;
-    height:30px;
-}
-.both{
+.all{
+   
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
-h2{
-    display:inline-block;
-    padding-bottom:20px;
+.card{
+    margin: 5px;
+    background-color: orangered;
+   
 }
-.cheese{
-    border-radius:10px;
-    display:inline-block;
-    float:right;
+.card-link{
+    border:1px solid #333;
+    padding:5px;
+    border-radius: 10px;
 }
-.peperoni{
-    border-radius:10px;
+
+
+.navbar li{
+    margin: 0px;
     display:inline-block;
-    float:right;
+    padding-left:20px;
+    padding-right:20px;
+    cursor: pointer;
+
+}
+
+.menu-drop{
+    display:none;
+   
+  
+    padding:10px;
+    position: absolute;
+    left:30px;
+    top:45px;
+    width:150px;
+    z-index: 1;
+    
+}
+.menu-drop ul{
+    box-shadow: 2px 2px 4px 2px blue;
+}
+.menu-drop li{
+    color:red;
+    height:3rem;
+    list-style:none;
+    border: 1px solid red;
+    text-align: center;
+  
+    width:100%;
+}
+.menu-drop a{
+    color:red;
+    text-decoration: none;
+   
+}
+.menu-drop li:hover{
+    color:white;
+    background-color: blue;
+    
+}
+.menu-drop ul{
+    padding-left:0px;
+    margin:0px;
+    background-color:black;
+}
+.menuhover{
+    padding-bottom:0px;
+}
+.menuhover:hover{
+    color: blue;
+}
+
+@media screen and (max-width:870px){
+    .all{
+        width:600px;
     }
-.basilcheese{
-    border-radius:10px;
-    display:inline-block;
-    float:right;
-}    
-.thickcrust{
-    border-radius:10px;
-    display:inline-block;
-    float:right;
-}    
-.footer{
-    padding-top:25px;
 }
 
 
-                                    
-
-
-
-
-
-                                    /* 850 and smaller*/
-@media(max-width: 1030px ){
-    .both{
-        flex-wrap: wrap;
-}
-.cont1, .cont2{
-    height:175px;
-}
-
-
-}
-
-                                   /* 400 and smaller*/
-@media(max-width: 575px){
-    .cont1, .cont2{
-        height:200px;
+                    /* 700 and smaller */
+@media screen and (max-width:700px){
+   
+    .nav{
+        display: none;
     }
+     .all{
+        justify-content: center;
+        width:600px;
+    } 
+    
+    .burger-dropdown{
+        display:none;
+        position: absolute;
+        padding:20px;
+        color:white;
+        background-color: black;
+        z-index: 1;
+    }
+    
+    .burger-dropdown ul{
+        padding:0px;
+        display: none;
+        color:orangered;
+    }
+    .burger-dropdown li:hover{
+        color:blue;
+    }
+    .burger-dropdown li{
+        padding:3px;
+    }
+    li{
+        list-style: none;
+       
+    }
+    .fa-bars{
+        display: inline-block;
+        cursor: pointer;
+        margin:10px;
+        font-size: 40px;
+    }
+    .title-bignav{
+        display: inline-block;
         
-
-}
+    }
+    .title-smallnav{
+        display: inline-block;
+        
+    }
+    
+    }
+                                    /* 700 and bigger */
+    @media screen and (min-width:700px){
+        .fa-bars{
+            display: none;
+           color:lightblue;
+        }
+        .title-smallnav{
+            display: none;
+        }
+        .title-bignav{
+            display: inline-block;
+            padding-left:150px;
+        }
+        .burger-dropdown{
+            display:none;
+        }
+        
+    
+    }
+                                    /* 420 and smaller*/
+    @media screen and (max-width:420px){
+        .all{
+            width:350px;
+        }
+    }
+   
