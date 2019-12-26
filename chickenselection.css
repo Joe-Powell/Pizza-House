@@ -1,3 +1,8 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
 
 .navbar li{
     margin: 0px;
@@ -7,22 +12,14 @@
     cursor: pointer;
 
 }
-.pizza{
-    height:300px;
- 
-   
-    background-image:url("./images/pizzaPic.jpg");
-   
-    background-size: cover;
-    background-position: center;
-}
+
 .menu-drop{
     display:none;
     width:150px;
     height:300px;
     position: absolute;
     left:20px;
-    top:85px;
+    top:55px;
   
     
 }
@@ -64,6 +61,51 @@
 .menuhover:hover{
     color: blue;
 }
+
+.cont1, .cont2{
+    display:inline-block; 
+    padding:25px;
+    margin-top:10px;
+    margin-left:10px;
+    border:1px solid teal;
+    height:150px;
+  width:400px;
+    
+  
+}
+
+.btn{
+    margin-top:20px;
+    width:200px;
+    border:none;
+    border-radius:20px;
+    background-color:red;
+    color:white;
+    height:30px;
+}
+
+.both{
+    display:flex;
+    justify-content: center;
+}
+h2{
+    display:inline-block;
+    padding-bottom:20px;
+}
+
+
+.img{
+    border-radius:10px;
+   
+    float:right;
+}    
+
+
+
+
+
+
+
 
 @media screen and (max-width:700px){
 .nav{
@@ -124,18 +166,4 @@ li{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

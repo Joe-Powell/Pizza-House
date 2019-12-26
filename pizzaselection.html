@@ -1,16 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pizza selection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+
+     <link rel="stylesheet" type='text/css' href="pizzaselection.css">
+     
+     <script src="https://kit.fontawesome.com/871b467013.js" crossorigin="anonymous"></script>
+</head>
+<body>
     <!--This project uses html css javascript jquery-->
         <nav class="nav">
                 <ul class='navbar'>
                     <li class='menuhover'>Menu</li>
+                   
                     <li>Delivery</li>
                     <li>Pick-up</li>
-                    <h1 class='title-bignav'>Pizza House</h1>
+                    <h1 class='title-bignav'> Lawrence Pizza Shop</h1>
                 </ul>
             </nav>
         
             <i class="fas fa-bars"></i>
-            <h2 class='title-smallnav'>Pizza House</h2>
+            <h2 class='title-smallnav'>Pizza </h2>
         
         <div class='menu-drop'>
                 <ul>
@@ -46,14 +61,13 @@
                 <li>Pick-up</li>
                 
             </ul>
-       
-    <div class="all ">
-            <div class="card" style='width:200px; height:fit-content;' >
-                <img class="card-img-top" src="./images/peperoni.jpg" alt="card example image" style='width:120px; padding:10px; border-radius:20px;' height='100px' >
+        <div class="all ">
+            <div class="card" style='width:200px; ' >
+                <img class="card-img-top" src="./images/pepperoni.jpg" alt="card example image" style='width:120px; padding:10px; border-radius:20px;' height='100px' >
                 <div class="card-body">
-                  <h5 class="card-title">Peperoni Pizza</h5>
+                  <h5 class="card-title">Pepperoni Pizza</h5>
                   <p class="card-text">Enjoy this freshly prepared pepperoni and mozzarella cheese pizza </p>
-                  <a href="#" class="card-link">Order now</a>
+                  <button class="card-link pepperoni">Order now</button><p style='display:inline-block; padding-left:10px;'>$8.99</p>
                 </div>
               </div>
               <div class="card" style='width:200px;' >
@@ -61,7 +75,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Cheese Pizza</h5>
                   <p class="card-text">Enjoy this freshly prepared pepperoni and mozzarella cheese pizza </p>
-                  <a href="#" class="card-link">Order now</a>
+                  <button class="card-link cheese">Order now</button><p style='display:inline-block; padding-left:10px;'>$6.99</p>
                 </div>
               </div>
               <div class="card" style='width:200px;' >
@@ -69,7 +83,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Basil Pizza</h5>
                   <p class="card-text"> marinara sauce topped with Basil & mozzarella cheese. Order now! </p>
-                  <a href="#" class="card-link">Order now</a>
+                  <a href="#" class="card-link basil">Order now</a><p style='display:inline-block; padding-left:10px;'>$7.99</p>
                 </div>
               </div>
               <div class="card" style='width:200px;' >
@@ -78,16 +92,81 @@
                   <h5 class="card-title">Thick Crust Pizza</h5>
                   <p class="card-text">This gourmet pizza is ideal for easy late
                     night delivery. Order now </p>
-                  <a href="#" class="card-link">Order now</a>
+                  <a href="#" class="card-link thick">Order now</a><p style='display:inline-block; padding-left:10px;'>$9.99</p>
                 </div>
               </div>
             </div> 
     
-      
+       <!-- THIS BELOW WILL BE FOR THE CART -->
+    <div class='cart-box'>
+        <i class="fas fa-times"></i><br>
+        <h3 class='h3'>Pepperoni:</h3>
+        <h4 class='pepLanding'></h4>  <h5 class='removePrice1 clear'>Clear</h5><br>
+        <h3 class='h3'>Cheese:</h3>
+        <h4 class='cheLanding'></h4>  <h5 class='removePrice2 clear'>Clear </h5><br>
+        <h3 class='h3'>Basil pizza:</h3>
+        <h4 class='basLanding'></h4> <h5 class='removePrice3 clear'>Clear</h5><br>
+        <h3 class='h3'>Thick crust pizza:</h3>
+        <h4 class='thiLanding'></h4> <h5 class='removePrice4 clear'>Clear</h5><br>
+        <h3 class='total'> total:</h3>
+        <h4 class='totalLanding'></h4><br>
+            <button class='totalBtn' value='total'>total</button>
+    </div>
        
      
 
-     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                
+
+
+
+
+
+
+
+    <!-- <div class='both '>
+     <div class="cont1">
+       <h2>Basil Cheese</h2><img class='img' src='./images/basilcheese.jpg' height='100px'  ><p>Your favorite cheese pizza made with classic
+           <br> marinara sauce topped with Basil & mozzarella cheese. Order now!</p>
+               <button class='btn'>Order Now</button>
+                        </div>
+    
+        <div class="cont2">
+                <h2>Thick crust</h2><img class='img' src='./images/thickcrust.jpg' height='100px'  ><p>This gourmet pizza is ideal for easy late
+                     night delivery. Order now!</p>
+           <button class='btn'>Order Now</button>
+                  </div>    
+                </div> -->
+
+
+               
+
+
+
+                </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
