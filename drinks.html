@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/871b467013.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="drinks.css">
+</head>
+<body>
+  
+    <nav class="nav">
+        <ul class='navbar'>
+            <li class='menuhover'>Menu</li>
+           
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pizzaselection.html">Pizza</a></li>
+            <h1 class='title-bignav'> Lawrence Pizza Shop</h1>
+            <i class="fas fa-cart-plus"> Added to cart</i>
+
+
+        </ul>
+    </nav>
+    <i class="fas fa-bars"></i>
+    <h2 class='title-smallnav'>Drinks </h2>
+
+
+
+
+    <div class='menu-drop'>
+        <ul>
+            <a href="index.html"> <li>Home</li></a>
+            <a id='a' href='pizzaselection.html'><li class='anchLi'>Pizza</li></a>
+            <a id='a' href="chicken.html"><li class='anchLi'>Chicken</li></a> 
+            <li><a href="#">Pasta</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="#">Sides</a></li>
+            <li><a href="#">Deserts</a></li>
+        </ul>
+
+    </div>
+
+<div id='wrap'>
+    <h2>Drinks</h2>
+<div class="pic" ><img src='./images/sodas.jpg'width='350px' alt=""></div>
+
+     <!--Hamburger Dropdown-->
+<ul class='burger-dropdown'>
+    <li class='menudropburger'>Menu
+        <ul class='menuformenu'>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pizzaselection.html">Pizza</a></li>
+            <li><a href="chicken.html">Chicken</a></li>
+            <li><a href="#">Pasta</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="#">Sides</a></li>
+            <li><a href="#">Deserts</a></li>
+        </ul>  
+
+    </li>
+    <li>Deals</li>
+    <li>Delivery</li>
+    <li>Pick-up</li>
+    
+</ul>
+
+
+
+
+
+<select name="" id="select" onchange="putPic()">
+    <option value="">
+      select
+     </option>
+    <option value='./images/coke.jpg'>
+        Coke
+    </option>
+    <option  value="./images/sprite.jpg">
+        Sprite
+    </option>
+    <option value="./images/orangeFanta.jpg">
+       Orange soda
+    </option>
+    <option value="./images/cherryCoke.jpg">
+        Cherry Coke
+    </option>
+    <option value="./images/rootBeer.jpg">
+       Root Beer
+    </option>
+    <option value="./images/dietCoke.jpg">
+        Diet coke
+    </option>
+
+
+
+
+</select>
+
+
+    <div id="landing"><br><img id='img'  src="" height='300px' >
+
+    </div>
+    <form id="quant">
+        <h3>Please enter amount below</h3>
+        <select name="" id="selectQuant">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        
+        <input type="button" value="Add Cart" onclick="addCart()">
+       
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="drinks.js"></script>
+</body>
+</html>

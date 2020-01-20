@@ -1,0 +1,162 @@
+
+.navbar li{
+    margin: 0px;
+    display:inline-block;
+    padding-left:20px;
+    padding-right:20px;
+    cursor: pointer;
+
+}
+navbar li, a{text-decoration: none;
+    color:red;
+    font-size: 33px;
+
+}
+.pizza{
+    height:300px;
+ 
+   
+    background-image:url("./images/pizzaPic.jpg");
+   
+    background-size: cover;
+    background-position: center;
+}
+.menu-drop{
+    display:none;
+    width:150px;
+    height:300px;
+     position: absolute;
+    left:20px;
+    top:85px; 
+  
+    
+}
+.menu-drop ul{
+    box-shadow: 2px 2px 4px 2px blue;
+}
+
+.menu-drop li{
+    color:red;
+    height:3rem;
+    list-style:none;
+    border: 1px solid red;
+    text-align: center;
+  
+    width:100%;
+}
+.menu-drop a{
+    color:red;
+    text-decoration: none;
+   
+}
+/* .menu-drop a:hover{
+   color:white;
+    
+} */
+.menu-drop li:hover{
+    color:white;
+    background-color: blue;
+    
+}
+.menu-drop ul{
+    padding-left:0px;
+    margin:0px;
+    background-color:black;
+}
+.menuhover{
+    padding-bottom:0px;
+    font-size: 33px;
+    color:blue
+}
+.menuhover:hover{
+    color: blue;
+}
+#wrap{
+    text-align: center;
+    height:1000px;
+}
+#quant{
+    display: none;
+   
+    text-align: center;
+}
+#number{
+    width:50px;
+    height:30px;
+}
+#selectQuant{
+    border-radius: 10px;
+}
+.fa-cart-plus{
+    display: none;
+    font-size: 35px;
+    margin-left: 500px;
+    background: red;
+    /* width:300px; */
+    padding:12px;
+    border-radius: 10px;
+}
+.fa-cart-plus:hover{
+    background: blueviolet;
+}
+
+@media screen and (max-width:700px){
+.nav{
+    display: none;
+}
+.burger-dropdown{
+    display:none;
+    position: absolute;
+    padding:20px;
+    color:white;
+    background-color: black;
+}
+
+.burger-dropdown ul{
+    padding:0px;
+    display: none;
+    color:orangered;
+}
+.burger-dropdown li:hover{
+    color:blue;
+}
+.burger-dropdown li{
+    padding:3px;
+}
+li{
+    list-style: none;
+   
+}
+.fa-bars{
+    display: inline-block;
+    cursor: pointer;
+    margin:10px;
+    font-size: 40px;
+}
+.title-bignav{
+    display: inline-block;
+    
+}
+.title-smallnav{
+    display: inline-block;
+    padding-left:100px;
+}
+
+}
+@media screen and (min-width:700px){
+    .fa-bars{
+       color:white;
+    }
+    .title-smallnav{
+        display: none;
+    }
+    .title-bignav{
+        display: inline-block;
+        padding-left:150px;
+    }
+    .burger-dropdown{
+        display:none;
+    }
+
+}
+
