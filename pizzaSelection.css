@@ -1,0 +1,73 @@
+  *{
+    padding:0px;
+    margin:0px;
+}
+
+.all{
+   
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    padding: 8px;
+    margin: 5px;
+    background-color: orangered;
+    box-shadow: 2px 1px 0px  #333;
+   
+}
+.card-link{
+    display: inline-block;
+    border:1px solid #333;
+    padding:5px;
+    border-radius: 10px;
+    color:white;
+    background:#333;
+}
+.cart-box{
+     display:none; 
+    position: absolute;
+    top:25px;
+    /* left:1000px; */
+     border-radius:5px;
+     width:375px;
+     padding:15px;
+     background-color:beige;
+     opacity: .8;
+    
+}
+.removePrice1, .removePrice2, .removePrice3, .removePrice4{
+    display: inline-block;
+    cursor: pointer;
+    color:blue;
+    text-align: center;
+   margin:0;
+   /* display: none; */
+   
+    }
+    .h3{
+        display: inline-block;
+    }
+.pepLanding, .cheLanding, .basLanding, .thiLanding{
+    display: inline-block;
+}
+.clear{
+    float:right;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    /* 700 and bigger */
+   
+   
