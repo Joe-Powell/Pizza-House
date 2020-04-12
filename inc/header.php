@@ -10,7 +10,7 @@
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
-    <link href='style3.css' type='text/css' rel='stylesheet'>
+    <link href='style.css' type='text/css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/871b467013.js" crossorigin="anonymous"></script>
 
 </head>
