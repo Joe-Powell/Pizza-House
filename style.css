@@ -1,0 +1,141 @@
+
+.navbarUl li{
+    margin: 0px;
+    display:inline-block;
+    padding-left:20px;
+    padding-right:20px;
+    cursor: pointer;
+
+}
+.navbarUl li, a{
+    text-decoration: none;
+    display: inline-block;
+    color:red;
+    font-size: 33px;
+
+}
+
+.pizzaPic{
+    height:300px;
+    background-image:url("./images/pizzaPic.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.menu-drop{
+    display:none;
+    width:200px;
+    height:300px;
+    position: absolute;
+    left: 5px;
+    top:85px;
+  
+    
+}
+.menu-drop ul{
+    
+}
+
+.menu-drop li{
+    color:red;
+    height:3rem;
+    font-size: 22px;
+    list-style:none;
+    border: 1px solid red;
+    text-align: center;
+    width:100%;
+}
+.menu-drop a{
+    color:red;
+    text-decoration: none;
+    width:100%;
+    
+   
+}
+/* .menu-drop a:hover{
+   color:white;
+    
+} */
+.menu-drop li:hover{
+    color:white;
+    background-color: blue;
+    
+}
+.menu-drop ul{
+    padding-left:0px;
+    margin:0px;
+    background-color:black;
+}
+.menuhover{
+    padding-bottom:0px;
+    font-size: 33px;
+    color:blue
+}
+.menuhover:hover{
+    color: blue;
+}
+
+@media screen and (max-width:700px){
+.navCont{
+    display: none;
+}
+.burger-dropdown{
+    display:none;
+    position: absolute;
+    padding:20px;
+    color:white;
+    background-color: black;
+}
+
+.burger-dropdown ul{
+    padding:0px;
+    display: none;
+    color:orangered;
+}
+.burger-dropdown li:hover{
+    color:blue;
+}
+.burger-dropdown li{
+    padding:3px;
+}
+li{
+    list-style: none;
+   
+}
+.fa-bars{
+    display: inline-block;
+    cursor: pointer;
+    margin:10px;
+    font-size: 40px;
+}
+.title-bignav{
+    display: inline-block;
+    
+}
+.title-smallnav{
+    display: inline-block;
+    padding-left:100px;
+}
+
+}
+@media screen and (min-width:700px){
+    .fa-bars{
+       color:white;
+    }
+    .title-smallnav{
+        display: none;
+    }
+    .title-bignav{
+        display: inline-block;
+        padding-left:150px;
+    }
+    .burger-dropdown{
+        display:none;
+    }
+
+}
+
+
+
+
+
+
